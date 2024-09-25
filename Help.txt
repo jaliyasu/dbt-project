@@ -1,0 +1,11 @@
+initialisation of the DBT project
+-dbt init
+Check DB drivers and profile configuration is correct but it does not check actual connection to DB
+-dbt debug
+Run model
+-dbt debug
+-dbt compile
+-dbt run
+DBT Jinja ref -{{ref('sql file name')}}
+DBT document generation
+-dbt docs generate

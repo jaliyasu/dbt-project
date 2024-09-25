@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: student_source
+    database: mytest
+    schema: mytest
+    tables:
+      - name: students
+
+

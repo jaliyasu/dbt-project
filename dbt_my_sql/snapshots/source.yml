@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: all_orders
+    database: mytest
+    schema: mytest
+    tables:
+      - name: orders
