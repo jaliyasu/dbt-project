@@ -1,0 +1,22 @@
+dbt_my_sql:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      server: localhost
+      port: 3306  # optional
+      database: mytest1 # optional, should be same as schema
+      schema: mytest
+      username: root
+      password: Rootroot
+      allow_local_infile: True
+      driver: MySQL ODBC 8.0 ANSI Driver
+    prod:
+      type: mysql
+      server: localhost
+      port: 3306  # optional
+      database: prod # optional, should be same as schema
+      schema: prod
+      username: root
+      password: Rootroot
+      driver: MySQL ODBC 8.0 ANSI Driver
